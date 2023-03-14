@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph frameAngle="-5" distortion="false" windowed="false" displays="8,7,4,3,6,5" eye="144" minDistToWall="60" takeOffAfter="2000" >
+	<!-- texture for ground floor -->
+	<floorTexture val="black.png" />
+	<wallHeight val="2000"/>
+	<edgeWidth val="10000"/>
+	<skySphereTexture val="gradient.png"/>
+	<!-- the VR starts on this node -->
+	<startNode id="n0"/>
+	<!-- nodes 0 and 1 for maze 1 and nodes 2 and 3 for maze 2 -->
+	<node id="n0" x="0"     y="0"  texture="gray_gray_45.png" tileX="10" accessible="true"/>
+
+	<wall x1="5000" y1="4999" x2="5000" y2="-4999" z="0" texture="triangle_shenhao.png" height="2000" tileX="10" name="s1" visible="true"/>
+	<wall x1="-5000" y1="4999" x2="-5000" y2="-4999" z="0" texture="square_shenhao.png" height="2000" tileX="10" name="s1" visible="true"/>
+	<wall x1="5000" y1="-4999" x2="-5000" y2="-4999" z="0" texture="cross_shenhao.png" height="2000" tileX="10" name="s1" visible="true"/>
+	<wall x1="5000" y1="4999" x2="-5000" y2="4999" z="0" texture="circle_shenhao.png" height="2000" tileX="10" name="s1" visible="true"/>
+
+	<object x="-1500" y="2000" z="0" name="w1" mesh="cylinder_blue.x" scale="3" visible="false" />
+	<object x="-500" y="2000" z="0" name="w2" mesh="cylinder_blue.x" scale="3" visible="false" />
+	<object x="500" y="2000" z="0" name="w3" mesh="cylinder_blue.x" scale="3" visible="false" />
+	<object x="1500" y="2000" z="0" name="w4" mesh="cylinder_blue.x" scale="3" visible="false" />
+	<object x="-1500" y="1000" z="0" name="w5" mesh="cylinder_blue.x" scale="3" visible="false" />
+	<object x="-500" y="1000" z="0" name="w6" mesh="cylinder_blue.x" scale="3" visible="false" />
+	<object x="500" y="1000" z="0" name="w7" mesh="cylinder_blue.x" scale="3" visible="false" />
+	<object x="1500" y="1000" z="0" name="w8" mesh="cylinder_blue.x" scale="3" visible="false" />
+	
+	<object x="-1500" y="2000" z="0" name="a1" mesh="cylinder_gray.x" scale="3" visible="false" />
+	<object x="-500" y="2000" z="0" name="a2" mesh="cylinder_gray.x" scale="3" visible="false" />
+	<object x="500" y="2000" z="0" name="a3" mesh="cylinder_gray.x" scale="3" visible="false" />
+	<object x="1500" y="2000" z="0" name="a4" mesh="cylinder_gray.x" scale="3" visible="false" />
+	<object x="-1500" y="1000" z="0" name="a5" mesh="cylinder_gray.x" scale="3" visible="false" />
+	<object x="-500" y="1000" z="0" name="a6" mesh="cylinder_gray.x" scale="3" visible="false" />
+	<object x="500" y="1000" z="0" name="a7" mesh="cylinder_gray.x" scale="3" visible="false" />
+	<object x="1500" y="1000" z="0" name="a8" mesh="cylinder_gray.x" scale="3" visible="false" />
+</graph>
